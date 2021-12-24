@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAAA,OAAO,CAAC;EACN,UAAU,EAAE,MAAM;CACnB",
+    "mappings": "ACAA,AAAA,IAAI,CAAC;EACD,MAAM,EAAE,GAAG;CAEd;;ACHD,AAAA,KAAK,CAAC;EACF,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,qCAAqC;EAAE,qBAAqB;EACnF,QAAQ,EAAE,GAAG;CACd;;AAMD,AAAA,KAAK,GAAG,IAAI,CAAC;EACX,UAAU,EAAE,KAAK;EACjB,UAAU,EAAE,MAAM;EAClB,UAAU,EAAE,wBAAwB,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,KAAK,EAAE,kBAAkB,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG,CAAC,GAAG;CAAI",
     "sources": [
-        "master.scss"
+        "master.scss",
+        "components/_main.scss",
+        "components/_grid.scss"
     ],
     "names": [],
     "file": "master.css"
