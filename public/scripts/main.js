@@ -1,5 +1,10 @@
 
-
+$(".option").click(function(){
+    $(".option").removeClass("active");
+    $(this).addClass("active");
+    
+ });
+ 
 // // FIREBASE CONFIGURATION
 // var firebaseConfig = {
 //     apiKey: "AIzaSyAHPSqoB1SSgOKLo5Lh1oIOyrB9hCACX2I",

@@ -8,3 +8,13 @@ $base-style-color-6: #13084D;
 $base-style-font: 'Barlow', sans-serif;
 
 
+@mixin dark {
+    &.dark {
+       @content;
+    }
+    @media (prefers-color-scheme: dark) {
+       &:not(.light) {
+          @content;
+       }
+    }
+ }
