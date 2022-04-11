@@ -2,6 +2,8 @@
 @import './colors';
 @import './components/welcome';
 @import './components/gallery';
+@import './components/topNav';
+@import './components/header';
 @import './components/footer';
 
 body{
@@ -10,7 +12,6 @@ body{
     
 }
 header{
-    padding: 5em 0 0 0 ;
     background-color: white;
     overflow: scroll;
 
@@ -43,4 +44,17 @@ section{
     border-radius: 1em;
     width: 100%;
     height: auto;
+}
+#brand{
+    .col-7{
+        display: flex;
+        align-items: center;
+    }
+}
+.appointment-trigger{
+    display: flex;
+    justify-content: center;
+    a{
+        text-decoration: none;
+    }
 }

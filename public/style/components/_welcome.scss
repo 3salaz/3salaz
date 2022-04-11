@@ -1,14 +1,20 @@
 #welcome{
     // background-color: $base-style-color-1;
-    padding: 20px;
     border-radius: 5px;
-    margin-bottom: 20px;
-    #brand col-3 {
+    text-align: center;
+    #brand col-4 {
+        text-align: center;
+    }
+    #brand .col-6 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #brand col-2 {
         text-align: center;
         img{
             border-radius: 1em;
             width: auto;
-            height: 200px;
         }
     }
     .brand-title{
