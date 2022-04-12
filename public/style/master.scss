@@ -1,3 +1,15 @@
-.center {
-  text-align: center;
-}
+@import './base/_base-dir';
+@import './base/_reset';
+@import './base/_typography';
+
+@import './abstracts/_abstracts-dir';
+@import './abstracts/_fonts';
+@import './abstracts/_mixins';
+@import './abstracts/_variables';
+
+@import './components/_components-dir';
+@import './components/_buttons';
+@import './components/_input';
+@import './components/_modal';
+
+@import './layouts/_layout-dir';
