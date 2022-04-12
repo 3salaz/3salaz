@@ -1,3 +1,9 @@
-.center {
-  text-align: center;
-}
+@import './base/_base-dir';
+
+@import './abstracts/_abstracts-dir';
+
+@import './components/_components-dir';
+
+@import './layouts/_layout-dir';
+
+@import './vendor/_vendor-dir';
