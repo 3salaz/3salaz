@@ -1,46 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap');
-@import './colors';
-@import './components/welcome';
-@import './components/gallery';
-@import './components/footer';
+@import './base/_base-dir';
 
-body{
-    font-family: $base-style-font;
-    height: 100vh;
-    
-}
-header{
-    padding: 5em 0 0 0 ;
-    background-color: white;
-    overflow: scroll;
+@import './abstracts/_abstracts-dir';
 
-}
-section{
-    padding-top: 5em ;
-    .services-tagline{
-        h5{
-             font-weight: 200;
-             font-size: 1em;
-        }
-    }
+@import './components/_components-dir';
 
-    #serviceSelection{
-        .card{
-            img{
-                height: 200px;
-                padding: 1em;
-            }
-        }
-        padding-top: 5em;
-        
-        .btn{
-            width: 100%;
-        }
-    }
+@import './layouts/_layout-dir';
 
-}
-#brand-icon {
-    border-radius: 1em;
-    width: 100%;
-    height: auto;
-}
+@import './vendor/_vendor-dir';
