@@ -15,7 +15,7 @@
 
 ## I'm a Developer,Student and Mentor!
 
-- 🔭 I’m currently working as a Devops Assistant @ [Gameheads][gameheads/devops]!
+- 🔭 I’m currently working as a Softwareware Developer and teaching Front End Development @ [Gameheads][gameheads/devops]!
 - 🌱 I’m currently learning everything 🤣
 - 👯 I’m looking to collaborate with other engineers online!
 - 🥅 2020 Goals: Contribute more to my unity project.
