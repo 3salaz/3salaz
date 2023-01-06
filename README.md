@@ -18,7 +18,7 @@
 - 🔭 I’m currently working as a Softwareware Developer and teaching Front End Development @ [Gameheads][gameheads/devops]!
 - 🌱 I’m currently learning everything 🤣
 - 👯 I’m looking to collaborate with other engineers online!
-- 🥅 2020 Goals: Contribute more to my unity project.
+- 🥅 2023 Goals: Build systems to manage small buisness clients.
 - ⚡ Fun fact: ...
 
 ### Spotify Playing 🎧
