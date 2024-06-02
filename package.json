@@ -1,19 +1,19 @@
 {
-  "name": "website",
+  "dependencies": {
+    "firebase": "^10.12.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  },
+  "name": "webapp",
   "version": "1.0.0",
+  "description": "3salaz web app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "body-parser": "^1.19.1",
-    "express": "^4.17.2",
-    "firebase": "^9.6.1",
-    "vuefire": "^2.2.5"
-  }
+  "license": "ISC"
 }
