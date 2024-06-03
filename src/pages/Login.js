@@ -1,19 +1,19 @@
 // src/pages/Login.js
 import React, { useRef } from 'react';
-import { useAuth } from '../contexts/AuthContext';
-import { useHistory } from 'react-router-dom';
+import { useAuth } from '../context/AuthContext';
+import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
   const emailRef = useRef();
   const passwordRef = useRef();
   const { login } = useAuth();
-  const history = useHistory();
+  const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
       await login(emailRef.current.value, passwordRef.current.value);
-      history.push('/dashboard');
+      navigate.push('/dashboard');
     } catch (error) {
       console.error('Failed to log in', error);
     }
